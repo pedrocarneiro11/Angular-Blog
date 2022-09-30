@@ -3,7 +3,7 @@
   margin-left: 20px;
   margin-right: 20px;
   width: 400px;
-  height: 500px;
+  height: 510px;
 
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 .BigCardPicture {
   position: relative;
   margin: -1px;
-  top: 0;
+  top: 0px;
   height: 250px;
 }
 

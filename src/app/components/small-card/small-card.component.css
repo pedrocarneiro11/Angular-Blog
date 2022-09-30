@@ -2,6 +2,35 @@ p {
   color: white;
 }
 .container__small-card {
-  border: 1px solid #ffffff;
-  width: 500px;
+  width: 900px;
+  margin-bottom: 15px;
+}
+
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.SmallCardPicture {
+  height: 170px;
+}
+
+.SmallCardPicture > img {
+  margin-top: 2.5%;
+  height: 95%;
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.SmallCardTitle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 25%;
+}
+
+.container__small-card-separator{
+  margin-top: 5px;
 }
