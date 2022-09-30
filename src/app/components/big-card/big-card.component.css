@@ -1,0 +1,45 @@
+.containerBigCard {
+  /* border: solid #FFFF 2px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.BigCardPicture {
+  position: relative;
+  margin: -1px;
+  top: 0;
+  height: 250px;
+}
+
+.placeholder {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  color: #FFFF;
+}
+
+.BigCardTitle  > h1 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.BigCardDescription {
+  margin-top: 20px;
+}
+
+.BigCardDescription > p > a {
+  color: rgba(129, 128, 128, 0.756);
+}
+
+.BigCardPicture > img {
+  width: 100%;
+  min-width: 100%;
+}
