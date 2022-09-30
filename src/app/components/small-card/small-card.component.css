@@ -15,6 +15,12 @@ p {
   height: 170px;
 }
 
+.placeholder {
+  margin: 0;
+  width: 100%;
+  background-image: url('./avengers.jpg');
+}
+
 .SmallCardPicture > img {
   margin-top: 2.5%;
   height: 95%;
