@@ -1,13 +1,15 @@
 <div class="container__content">
   <div class="content__cover">
-    <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/06/tony-stark-endgame-snap.jpg" alt="">
+    <img src="{{ photoCover }}" alt="">
   </div>
   <div class="content__title">
-    <h1>MEU ARTIGO</h1>
+    <h1>{{ contentTitle }}</h1>
+    <hr>
+    <a class="linkVoltar" [routerLink]="['']"><< VOLTAR << </a>
   </div>
   <div class="content__description">
     <p>
-      MEU PARAGRAFO
+      {{ description }}
     </p>
   </div>
 </div>
