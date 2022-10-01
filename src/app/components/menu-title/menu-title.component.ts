@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-title.component.css', './menu-title.responsive.component.css']
 })
 export class MenuTitleComponent implements OnInit {
-  Titulo:string= "PEDRO BLOG"
+  Titulo:string= "MARVEL BLOG"
 
   constructor() { }
 
